@@ -61,7 +61,7 @@ Civic Dashboard
 
 The application can also operate without Gemini through a deterministic rule-based Demo Mode, allowing the prototype to remain functional without an API key.
 
-🖥️ Dashboard
+## 🖥️ Dashboard
 
 The dashboard provides a visual overview of the civic-service data, including:
 
@@ -74,7 +74,7 @@ Civic-service trends
 
 The interface uses a modern glassmorphism-inspired design with subtle animations and interactive components.
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 Frontend
 HTML
 CSS
@@ -91,7 +91,8 @@ Docker
 Cloud Run compatible architecture
 Data
 Synthetic demonstration data
-🔐 Security
+
+## 🔐 Security
 
 Gemini API credentials are kept server-side.
 
@@ -99,7 +100,8 @@ The browser communicates with backend /api/* endpoints rather than directly expo
 
 API keys should be provided through environment variables and should never be committed to the repository.
 
-🚀 Running Locally
+## 🚀 Running Locally
+
 1. Clone the repository
 git clone https://github.com/Mudassir-25/janmitra-ai.git
 cd janmitra-ai
@@ -120,7 +122,7 @@ Demo Mode
 
 If no GEMINI_API_KEY is provided, JanMitra AI automatically runs in a labelled Demo Mode using deterministic rule-based analysis.
 
-☁️ Deployment
+## ☁️ Deployment
 
 The application is designed to be compatible with container-based deployment such as Google Cloud Run.
 
@@ -132,7 +134,8 @@ gcloud run deploy janmitra-ai \
 
 For production deployments, use a secure secret-management solution rather than placing credentials directly in deployment commands.
 
-📁 Project Structure
+## 📁 Project Structure
+
 janmitra-ai/
 ├── public/
 │   └── index.html
@@ -143,7 +146,8 @@ janmitra-ai/
 ├── .env.example
 ├── .gitignore
 └── README.md
-⚠️ Prototype Disclaimer
+
+## ⚠️ Prototype Disclaimer
 
 JanMitra AI is an experimental prototype created to demonstrate an AI-assisted civic governance workflow.
 
@@ -151,7 +155,7 @@ It uses synthetic data and does not represent or connect to any real government 
 
 AI-generated outputs are demonstrations and should not be treated as official government decisions or recommendations.
 
-🌱 Future Possibilities
+## 🌱 Future Possibilities
 
 If developed beyond the prototype, the concept could explore:
 
@@ -165,16 +169,8 @@ Role-based dashboards
 Secure government data integrations
 Explainable AI-assisted prioritization
 
-📄 License
+## 📄 License
 
 This project is provided as a prototype for educational, demonstration, and portfolio purposes.
 
 
-### Then update GitHub
-
-Since the repo is **already pushed**, just replace your local `README.md` with the above, then run:
-
-```bash
-git add README.md
-git commit -m "Improve project documentation"
-git push
